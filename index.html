@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="css/style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+      <div class="navbar-inner">
+        <div class="logo">Task Flow</div>
+        <div class="nav-links">
+          <a href="#Dashboard">Dashboard</a>
+          <a href="#Task">Task</a>
+          <a href="#Calender">Calendar</a>
+        </div>
+        <div class="navbar-icons">
+          <button class="icon-btn notification" title="Notifications">
+            <img src="assets/bell.png" alt="Notifications">
+          </button>
+          <button class="icon-btn settings" title="Settings">
+            <img src="assets/setting.png" alt="Settings">
+          </button>
+          <img src="https://png.pngtree.com/png-clipart/20230927/original/pngtree-man-avatar-image-for-profile-png-image_13001877.png" alt="User Avatar" class="avatar">
+        </div>
+      </div>
+    </nav>
+    <section class="hero-text">
+      <div class="text">
+        <h2>
+          Task Manager
+        </h2>
+      </div>
+    </section>
+    <section class="hero-paragraph">
+      <div class="paragraph">
+        <p class="hero-paragraph">
+          Precision tool for daily productivity flow.
+        </p>
+      </div>
+    </section>
+    <section class="input-container">
+  <input type="text" placeholder="What needs to be done?" required >
+  
+  <button class="add-btn">
+    + Add Task
+  </button>
+</section>
+<section class="dashboard">
+  <div class="card">
+    <div class="content">
+     <p class="title">TOTAL TASKS</p>
+      <h2>0</h2>
+  </div>
+  </div>
+  <div class="card">
+    <div class="content">
+     <p class="title">Completed</p>
+      <h2>0</h2>
+  </div>
+  </div>
+  <div class="card">
+    <div class="content">
+     <p class="title">Pending</p>
+      <h2>0</h2>
+  </div>
+</section>
+<section class="tasks-section">
+  <ul class="todo-list"></ul>
+</section>
+  <script src="js/script.js"></script>
+  </body>
+</html>
